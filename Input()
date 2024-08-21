@@ -1,0 +1,8 @@
+x,k=map(int,input().split())
+p=input()
+exp=p.replace('x',str(x))
+a=eval(exp)
+if(a==k):
+    print("True")
+else:
+    print("False")
